@@ -1,0 +1,151 @@
+@charset "UTF-8";
+
+body {
+	
+	font-family: "Lato", sans-serif;
+  	font-weight: 400;
+  	font-style: normal;
+	font-size: 1.6em;
+	font-color: #514205;
+  	font-variation-settings:
+    "width" 100;
+
+	margin: 0;
+}
+
+h1	{
+  	font-family: "Lato", sans-serif;
+  	font-weight: 900;
+  	font-style: normal;
+	font-size: 7vw;
+	color: #514205;
+}
+
+h2	{
+  	font-family: "Lato", sans-serif;
+  	font-weight: 700;
+  	font-style: normal;
+	font-size: 2vw;
+	color: #514205;
+}
+
+/*changes h2 title to cream color*/
+.h2cream {
+  	font-family: "Lato", sans-serif;
+  	font-weight: 700;
+  	font-style: normal;
+	font-size: 2vw;
+	color: #fcffee;
+}
+
+h3{
+	font-family: "Lato", sans-serif;
+  	font-weight: 700;
+  	font-style: normal;
+	font-size: 2vw;
+	color: #514205;
+}
+
+/*h3 footer title color*/
+.h3footer{
+	font-family: "Lato", sans-serif;
+  	font-weight: 700;
+  	font-style: normal;
+	font-size: 2vw;
+	color: #fcffde;
+}
+
+/*quote styling for font pairing section*/
+.qstyle1{
+	font-family: "Lato", sans-serif;
+  	font-weight: 700;
+  	font-style: normal;
+	font-size: 2vw;
+	color: #514205;
+	padding: 16%;
+
+}
+
+/*quorte styling for hierarchy section*/
+.qstyle2{
+	font-family: "Lato", sans-serif;
+  	font-weight: 700;
+  	font-style: normal;
+	font-size: 2vw;
+	color: #514205;
+	padding: 9%;
+}
+
+
+section {
+	padding: 10%;
+	background-color: #fcffde;
+}
+
+/*background color for color principle sections*/
+.sectionBG{
+	background-color: #bab18c;
+	overflow:auto;
+	
+}
+
+footer {
+	padding: 10%;
+	background-color: #5e66f2
+
+}
+
+a {
+	color:#fcffde;
+	/*text-decoration: none;*/
+}
+
+
+a:hover {
+	
+	color: #cad2ff;
+}
+
+.button a {
+  background-color: #5e66f2;
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+	border-radius: 5 px;
+}
+
+
+.button a:hover {
+	background-color:#514205;
+}
+
+.center{
+	
+	display: flex;
+	justify-content: center;
+		
+}
+
+.left{
+	
+	float: left;
+	padding-right: 40px;
+	padding-bottom: 30px;
+}
+
+.right{
+	
+	float: right;
+	
+}
+
+.hero {
+	background-image:url("Images/WebpageHero3.jpg");
+	background-repeat: no-repeat;
+}
